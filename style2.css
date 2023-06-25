@@ -1,0 +1,45 @@
+body{
+    background-color: #e7dede95;
+}
+.forms{
+    padding:20px 20px;
+    background-color: #4f4f4f;
+    font-style: italic;
+    font-size:larger;
+    -webkit-text-fill-color: #ccc;
+    text-decoration-line:underline;
+}
+input[type="text"]{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="tel"]{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="date"]{
+    width:100%;
+    padding:12px;
+    margin:15px 0;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+button[type="submit"]{
+    width:100%;
+    background-color: black;
+    color:#FFF;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+button[type="submit"]{
+    background-color: #45a049;
+}

@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-style: italic;
+    text-decoration-line: underline;
+    -webkit-text-fill-color: brown;
+}
+h2{
+    text-align:justify;
+    font-size: 30px;
+    font-style: italic;
+    -webkit-text-fill-color: rgb(14, 78, 23);
+}
+h3{
+    text-align:center;
+}

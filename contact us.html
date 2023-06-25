@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+<font face="roboto"size='5'color="lightgray">
+  <h1>RECENT POSTS</h1>
+  </font>
+  <font face="roboto"size='5'color="lightgray">
+  <p> Turn your desire to inspire into a purposeful side hustle</p>
+  </font>
+  <font face="roboto"size='5'color="white">
+  <p>Host life-changing Vision Board Parties with purpose,passion and the aim of changing society </p>
+  </font>
+  
+</div>
+
+<h2 style="text-align:center">Our BLOG</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="speaking.jpg" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>6 Ways to overcome INSANE Public Speaking Jitters</h2>
+        <p class="title"></p>
+        <p>Being a little nervous before a public speaking event is perfectly natural. But for some, it can be a roadblock. Try these 6 methods to keep fear and nervousness at bay.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="meeting.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Woman's Board Meeting on discussing issues of the society</h2>
+        <p class="title"></p>
+        <p>Women on Board’s vision is to have both gender balanced and culturally diverse board and leadership roles.
+           As advocates for women, we are primarily looking at how we can support female cultural diversity </p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="build.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Innovative Infrastructure where invaluable minds are connected</h2>
+        <p class="title"></p>
+        <p>We have the best infrastucture for conducting the conference.We have built this infrastructure in the guidance of the experienced civil engineers in the aim of changing the vision of this society. </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-----footer-------------------->
+        <section id="footer">
+            
+            <div class="foot">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="contact us.html">BLOG</a></li>
+                    <li><a href="membership2.html">MEMBERSHIP</a></li>
+                    <li><a href="web.html">EVENT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+    
+                </ul>
+
+                <div class="social-links">
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-behance"></i></a>
+                    <a href=""><i class="fab fa-dribbble"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                  </div>
+            </div>
+        </section>
+      
+</body>
+</html>
+<style type="text/css">
+
+/footer/
+    #footer {
+      
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+        position: relative;
+        min-height: 50vh;
+        padding: 50px 100px;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+     }
+    
+     
+     #footer ul li{
+        color: white;
+        list-style:none;
+        margin: 30px 40px;
+        padding-top: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #footer ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: sans-serif;
+    }
+    
+    #footer ul li a:hover{
+        color: #ff4321;
+    } 
+    
+    
+    .social-links{
+        margin-left: 8%;
+        margin-top: 100px;
+    }
+    
+    .social-links a{
+        font-size: 30px;
+        color: #606163;
+        margin-right: 20px;
+    }
+    
+    .social-links a:hover{
+     color: #ff4321;
+    }
